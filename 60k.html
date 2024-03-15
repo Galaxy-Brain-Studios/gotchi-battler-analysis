@@ -1,0 +1,732 @@
+
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  <style>
+    * {
+      text-align: center;
+    }
+    body {
+      display: block;
+      padding: 1rem;
+    }
+    table {
+      margin: 0 auto;
+      white-space: nowrap;
+    }
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 50rem;
+    }
+  </style>
+</head>
+<nav>
+        <a href="index.html">Home</a> |
+        <a href="10k.html">10K Tournament</a> |
+        <a href="30k.html">30K Tournament</a> |
+        <a href="60k.html">60K Tournament</a> 
+    </nav>
+<body>
+<h1>60k GHST Tournament</h1>
+<h2>Elimination Matrix</h2>
+<p>This matrix shows the rounds in which teams were eliminated, categorized by their BRS and the prize they won.</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>BRS Brackets</th>
+      <th>0</th>
+      <th>0</th>
+      <th>51</th>
+      <th>72</th>
+      <th>120</th>
+      <th>186</th>
+      <th>300</th>
+      <th>456</th>
+      <th>762</th>
+      <th>1500</th>
+      <th>3600</th>
+      <th>6000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>&lt;2500</th>
+      <td>62</td>
+      <td>142</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2500-2600</th>
+      <td>0</td>
+      <td>176</td>
+      <td>15</td>
+      <td>6</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2600-2700</th>
+      <td>0</td>
+      <td>132</td>
+      <td>88</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2700-2800</th>
+      <td>0</td>
+      <td>52</td>
+      <td>93</td>
+      <td>33</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2800-3000</th>
+      <td>0</td>
+      <td>10</td>
+      <td>58</td>
+      <td>69</td>
+      <td>26</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3000-3300</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>17</td>
+      <td>22</td>
+      <td>27</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3300-3500</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Over 3500</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<h2>First Disadvantage Matrix</h2>
+<p>This matrix records the first time a team faces a higher winrate opposing team and in which round it occurred.</p>
+<p>Worth noting the addition of double-elimination brackets would make it so the first matrix looks more like the second one, since teams that lost having better odds would have a second chance, also worth noting the top 4 prizes were consistently won by over 3500 Total BRS teams throughout the 3 tournaments</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>BRS Brackets</th>
+      <th>Round 1</th>
+      <th>Round 2</th>
+      <th>Round 3</th>
+      <th>Round 4</th>
+      <th>Round 5</th>
+      <th>Top 64</th>
+      <th>Top 32</th>
+      <th>Top 16</th>
+      <th>Top 8</th>
+      <th>Semi Finals</th>
+      <th>Final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>&lt;2500</th>
+      <td>59</td>
+      <td>130</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2500-2600</th>
+      <td>0</td>
+      <td>182</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2600-2700</th>
+      <td>0</td>
+      <td>141</td>
+      <td>56</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2700-2800</th>
+      <td>0</td>
+      <td>43</td>
+      <td>92</td>
+      <td>21</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2800-3000</th>
+      <td>0</td>
+      <td>2</td>
+      <td>41</td>
+      <td>59</td>
+      <td>19</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3000-3300</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>14</td>
+      <td>16</td>
+      <td>21</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3300-3500</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Over 3500</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<img src='60k_average_prizes_by_category.png'>
+<h2>BRS Upsets:</h2>
+<p>This table shows the details of matches where a team had a lower BRS but a higher win rate compared to its opponent, with a BRS difference of over 300.</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Round</th>
+      <th>Team 1 Name | Leader | BRS</th>
+      <th>Team 2 Name | Leader | BRS</th>
+      <th>BRSDIFF</th>
+      <th>Team 1 Win%</th>
+      <th>Team 2 Win%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/c1721037-6f9e-4fbd-b7b4-4bcdeec9ec2d">Round 2</a></td>
+      <td>3 | Ninja | 2864</td>
+      <td>smile5 | Cleaver | 2525 🏆</td>
+      <td>339</td>
+      <td>46.0</td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/2a49eccb-6544-45e0-b532-13cd8d5b85f5">Round 2</a></td>
+      <td>PanzerDivision | Healer | 2869</td>
+      <td>Phantoms | Cleaver | 2522 🏆</td>
+      <td>347</td>
+      <td>31.0</td>
+      <td>69.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/096a9322-ad93-4e39-b24b-2fe3368292b8">Round 3</a></td>
+      <td>TT | Cleaver | 2949</td>
+      <td>AltbaeGteam | Troll | 2619 🏆</td>
+      <td>330</td>
+      <td>23.0</td>
+      <td>77.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/08661e6f-68a5-4e10-8877-083961265605">Round 4</a></td>
+      <td>DrSwagmi | Cursed | 3191 🏆</td>
+      <td>LeftForDead | Cursed | 2786</td>
+      <td>405</td>
+      <td>40.0</td>
+      <td>60.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/2d6c4451-684b-4099-9d24-14e01310cfd8">Round 4</a></td>
+      <td>AAction | Ninja | 3072</td>
+      <td>samie06mage | Mage | 2768 🏆</td>
+      <td>304</td>
+      <td>24.0</td>
+      <td>76.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/f419d4a8-b51c-4d2a-8691-e33d6a9cbd6e">Round 4</a></td>
+      <td>bloobsquad | Tank | 3172</td>
+      <td>TempusFugit | Mage | 2781 🏆</td>
+      <td>391</td>
+      <td>46.0</td>
+      <td>54.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/bff87bb0-69f1-435f-bbd3-fe4bb191d124">Top 64</a></td>
+      <td>Slaxter | Enlightened | 3485 🏆</td>
+      <td>HCFhotcurlyfries | Cursed | 3157</td>
+      <td>328</td>
+      <td>49.0</td>
+      <td>51.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/dcdd5319-9abe-46ac-a7bb-76203838677e">Top 32</a></td>
+      <td>Askals | Ninja | 3576 🏆</td>
+      <td>Machete | Tank | 3183</td>
+      <td>393</td>
+      <td>19.0</td>
+      <td>81.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/87e23813-1619-47ee-87a0-ede40ff5b898">Top 8</a></td>
+      <td>Felons | Tank | 3904 🏆</td>
+      <td>Mediocre | Mage | 3523</td>
+      <td>381</td>
+      <td>28.0</td>
+      <td>72.0</td>
+    </tr>
+  </tbody>
+</table>
+<h2>BRS Upset Leaders:</h2>
+<div><img src='60k_leader_special_id_counts_chart.png'>
+<h2>Statistical upsets:</h2>
+<p>This section displays matches where teams with a win rate of 90% or higher have been defeated by their opponents.</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Round</th>
+      <th>Team 1 Name | Leader | BRS</th>
+      <th>Team 2 Name | Leader | BRS</th>
+      <th>BRSDIFF</th>
+      <th>Team 1 Win%</th>
+      <th>Team 2 Win%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/9fc0f35a-6952-4bfd-81a8-c80b1cbc3a9a">Round 1</a></td>
+      <td>SilentsNakieTeam | Tank | 2389 🏆</td>
+      <td>CHRONOSPhantomPlatoon | Cursed | 2352</td>
+      <td>37</td>
+      <td>14.0</td>
+      <td>86.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/34c941a7-6511-48b0-8969-1a987a762e61">Round 1</a></td>
+      <td>PowerRangersOmega | Troll | 2396 🏆</td>
+      <td>BrocurseTeam4 | Cursed | 2346</td>
+      <td>50</td>
+      <td>20.0</td>
+      <td>80.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/e3c84481-6370-4b36-b89a-f53ab7ccecb3">Round 2</a></td>
+      <td>ancientpeoples | Cursed | 2688 🏆</td>
+      <td>ChainLightning | Mage | 2676</td>
+      <td>12</td>
+      <td>12.0</td>
+      <td>88.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/867ebfe2-9d8f-4efc-b99b-67cae3f589ec">Round 2</a></td>
+      <td>MiyaTeamB | Enlightened | 2789</td>
+      <td>Curseeeed | Enlightened | 2571 🏆</td>
+      <td>218</td>
+      <td>97.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/8d1bb0b9-a80c-4801-992f-591753a6da22">Round 2</a></td>
+      <td>stronk3 | Cleaver | 2780 🏆</td>
+      <td>Cookie1 | Mage | 2580</td>
+      <td>200</td>
+      <td>17.0</td>
+      <td>83.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/5cd7d735-7bd7-4aa5-b06b-9775494d569f">Round 3</a></td>
+      <td>Vici2 | Troll | 2812 🏆</td>
+      <td>GuardiansoftheAverage | Cursed | 2811</td>
+      <td>1</td>
+      <td>19.0</td>
+      <td>81.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/6f89d9dc-9125-4862-bc02-a24f8a82ea87">Round 3</a></td>
+      <td>wan | Tank | 2843</td>
+      <td>Terminatoors | Healer | 2772 🏆</td>
+      <td>71</td>
+      <td>91.0</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/c886f49d-45a0-49e1-9ffb-87135b686169">Round 3</a></td>
+      <td>BadDudez | Cleaver | 2975</td>
+      <td>cursed | Ninja | 2720 🏆</td>
+      <td>255</td>
+      <td>93.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/144025de-65bb-494e-a64d-e12b50a93f12">Round 3</a></td>
+      <td>Spinagotch | Mage | 2843</td>
+      <td>Miracle3 | Troll | 2773 🏆</td>
+      <td>70</td>
+      <td>95.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/ae926c55-8f59-48a2-9298-352b19d781b7">Round 4</a></td>
+      <td>EddyLand | Mage | 2724 🏆</td>
+      <td>NFS | Ninja | 2923</td>
+      <td>199</td>
+      <td>14.0</td>
+      <td>86.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/aa0e0f84-552c-4434-942e-bc14002c8301">Round 4</a></td>
+      <td>SonysBlack | Mage | 3345</td>
+      <td>goldenXross | Cursed | 2795 🏆</td>
+      <td>550</td>
+      <td>93.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/3deb5628-1b7c-47a8-bfee-1a01b062dd85">Round 4</a></td>
+      <td>CopyPasta | Mage | 2999</td>
+      <td>WagmisHPTrolls | Troll | 2742 🏆</td>
+      <td>257</td>
+      <td>97.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/0e5be960-c3f0-4259-a66a-c785f2641d15">Round 5</a></td>
+      <td>BoutOneFiddy | Enlightened | 3160 🏆</td>
+      <td>CryptoGreen2 | Cursed | 3032</td>
+      <td>128</td>
+      <td>19.0</td>
+      <td>81.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/dcdd5319-9abe-46ac-a7bb-76203838677e">Top 32</a></td>
+      <td>Askals | Ninja | 3576 🏆</td>
+      <td>Machete | Tank | 3183</td>
+      <td>393</td>
+      <td>19.0</td>
+      <td>81.0</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Overachieving teams:</h2>
+<p>This section displays matches where teams with a BRS difference lower than 50 have achieved a win rate of 90% or higher over their opponents.</p>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Round</th>
+      <th>Team 1 Name | Leader | BRS</th>
+      <th>Team 2 Name | Leader | BRS</th>
+      <th>BRSDIFF</th>
+      <th>Team 1 Win%</th>
+      <th>Team 2 Win%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/bf117729-53b1-402c-a2ad-957b24b6b274">Round 1</a></td>
+      <td>cursed | Mage | 2374 🏆</td>
+      <td>CHRONOSShadowSyndicate | Mage | 2374</td>
+      <td>0</td>
+      <td>95.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/5fdbe6d4-7a92-4b06-b0aa-9bcb74cce3a4">Round 1</a></td>
+      <td>Notgoingtomakeit | Tank | 2396 🏆</td>
+      <td>pistacho | Healer | 2349</td>
+      <td>47</td>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/7035afb1-d63b-4312-ad9f-33aaf92f094e">Round 1</a></td>
+      <td>1 | Enlightened | 2377 🏆</td>
+      <td>Cookie7 | Tank | 2368</td>
+      <td>9</td>
+      <td>96.0</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/ba190547-2976-4284-9207-ba6d26b2fc88">Round 2</a></td>
+      <td>underdogs | Ninja | 2686</td>
+      <td>TeamOmega | Mage | 2681 🏆</td>
+      <td>5</td>
+      <td>7.0</td>
+      <td>93.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/962a0fea-a09d-4bae-9b9d-8587fbfd10c0">Round 2</a></td>
+      <td>AltbaeEteam | Troll | 2686</td>
+      <td>GrimsWarriorSoulsoftheAbyss | Mage | 2679 🏆</td>
+      <td>7</td>
+      <td>9.0</td>
+      <td>91.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/3504bdb3-f891-4c8e-9d5b-6cab631c31d5">Round 2</a></td>
+      <td>WhatSup | Enlightened | 2692</td>
+      <td>LM2 | Cursed | 2673 🏆</td>
+      <td>19</td>
+      <td>3.0</td>
+      <td>97.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/962a71a9-861d-436d-aa84-e0f4231a2e7a">Round 2</a></td>
+      <td>Cryptotickerio6 | Ninja | 2685</td>
+      <td>WagmisFourthStringers | Mage | 2682 🏆</td>
+      <td>3</td>
+      <td>0.0</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/31352894-6e13-4306-bf6c-997a6e992a6f">Round 2</a></td>
+      <td>ChostGang | Troll | 2687</td>
+      <td>keule | Troll | 2677 🏆</td>
+      <td>10</td>
+      <td>3.0</td>
+      <td>97.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/04c5475d-d869-4c25-b755-43f1871adcf7">Round 2</a></td>
+      <td>WagmisSlytherins | Mage | 2699 🏆</td>
+      <td>BrittavsNinjas | Ninja | 2659</td>
+      <td>40</td>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/cfb3bc05-7b58-4ffd-9770-8db6e1479481">Round 2</a></td>
+      <td>WassupStain | Mage | 2702 🏆</td>
+      <td>Aavegotchiteam7 | Mage | 2655</td>
+      <td>47</td>
+      <td>95.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/40b62a2f-7a2f-4101-8cfd-8c79620d2a31">Round 2</a></td>
+      <td>Apu | Cursed | 2696 🏆</td>
+      <td>GFAavesome | Cleaver | 2665</td>
+      <td>31</td>
+      <td>97.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/bab315cb-361f-4242-a65d-48b2cba7c1b8">Round 2</a></td>
+      <td>Lastotonas | Tank | 2684</td>
+      <td>Aavegotchiteam4 | Ninja | 2682 🏆</td>
+      <td>2</td>
+      <td>7.0</td>
+      <td>93.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/92432999-7654-4985-b93b-4af7a88a3c6a">Round 2</a></td>
+      <td>cursed | Mage | 2702 🏆</td>
+      <td>356346 | Ninja | 2654</td>
+      <td>48</td>
+      <td>99.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/8027239f-7472-48a5-8f97-15de73dcb883">Round 2</a></td>
+      <td>teamverygoodbutbasicallythesameaslasttime | Tank | 2689 🏆</td>
+      <td>Nincho | Healer | 2676</td>
+      <td>13</td>
+      <td>93.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/94c0dce3-0e60-44b9-8353-64769bf59541">Round 2</a></td>
+      <td>samie15 | Cleaver | 2686</td>
+      <td>samie10troll | Troll | 2679 🏆</td>
+      <td>7</td>
+      <td>6.0</td>
+      <td>94.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/80536862-9f69-4448-a2f8-247cd48fa021">Round 2</a></td>
+      <td>cursed | Ninja | 2690</td>
+      <td>BoLun | Cursed | 2674 🏆</td>
+      <td>16</td>
+      <td>3.0</td>
+      <td>97.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/f4a13207-c04a-4b17-a66d-d906a35f6c31">Round 3</a></td>
+      <td>GB1 | Cursed | 2829 🏆</td>
+      <td>bigi | Tank | 2788</td>
+      <td>41</td>
+      <td>97.0</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/4d4e44fd-d059-4cd1-b31e-c99c4917ab36">Round 3</a></td>
+      <td>Maxfriends | Cursed | 2819</td>
+      <td>SlickMags | Mage | 2800 🏆</td>
+      <td>19</td>
+      <td>2.0</td>
+      <td>98.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/7d83665b-05ca-4a71-985f-7b380917334c">Round 3</a></td>
+      <td>TOPM4 | Healer | 2825 🏆</td>
+      <td>ninjaz | Ninja | 2792</td>
+      <td>33</td>
+      <td>91.0</td>
+      <td>9.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/49f983d6-78b4-4518-8043-d425bb088f66">Round 3</a></td>
+      <td>| Tank | 2817</td>
+      <td>LoanWolves | Cursed | 2804 🏆</td>
+      <td>13</td>
+      <td>7.0</td>
+      <td>93.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/b6281a88-e14f-4a2d-b829-3549f6a51f1b">Round 4</a></td>
+      <td>Goodfellas | Mage | 2961 🏆</td>
+      <td>ProbablyNothing | Tank | 2930</td>
+      <td>31</td>
+      <td>100.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/ccc86804-3605-4f8f-988e-d3532a0935b5">Round 4</a></td>
+      <td>Puskals | Cursed | 2951</td>
+      <td>THESMALLMAGES | Mage | 2940 🏆</td>
+      <td>11</td>
+      <td>1.0</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <td><a href="https://gotchibattler.com/tournaments/id/7/bracket/8/0d4a262e-3d20-4fa0-9983-6b31d76276f3">Top 64</a></td>
+      <td>thatwasfine | Cursed | 3244</td>
+      <td>TheBigWag | Mage | 3223 🏆</td>
+      <td>21</td>
+      <td>7.0</td>
+      <td>93.0</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Leader Pick Rate Chart:</h2>
+<img src='60k_leader_pick_rate_chart.png'>
+<h2>Average Win Rate by Leader:</h2>
+<img src='60k_weighted_avg_win_rate_chart.png'></body></html>
